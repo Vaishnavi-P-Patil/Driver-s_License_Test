@@ -1,0 +1,224 @@
+def result(ans):
+    return ans
+count = 0
+print("*********************************************************** WELCOME***************************************************************")
+print("__________________________________________________________________________________________________________________________________")
+print(" ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+print("****************************************** THE DRIVER'S LICENCE TEST PAPER *********************************************************")
+print("----------------------------------------------------------------------------------------------------------------------------------")
+print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
+
+name = input("Enter your name:")
+age = int (input("Enter your age:"))
+address = input("Enter your address:")
+print("__________________________________________________________________________________________________________________________________")
+print("Let's start your test")
+print("__________________________________________________________________________________________________________________________________")
+
+
+print("A. What is the minimum age for driving a motorcycle without gear?")
+print("1. 16 years")
+print("2. 18 years")
+print("3. 21 years")
+ans = int( input("Ans:"))
+if ans == 1:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("----------------------------------------------------------------------------------------------------------------------------------")   
+print("B. What should you do when you see a traffic sign of a school nearby?")
+print("1. stop the vehicle")
+print("2. slow down and proceed carefully")
+print("3. press horn and proceed in same speed")
+ans = int( input("Ans:"))
+if ans == 2:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("---------------------------------------------------------------------------------------------------------------------------------")
+print("C. Before you overtake a vehicle what should you keep in mind ?")
+print("1. the road ahead should be clearly visible and overtaking should be safe")
+print("2. the road is not safe")
+print("3. there are no vehicles ahead")
+ans = int( input("Ans:"))
+if ans == 1:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("--------------------------------------------------------------------------------------------------------------------------------") 
+print("D. If a driver sees the sign for 'slippery road ahead',he/she must....")
+print("1. drive faster")
+print("2. change gear and reduce speed")
+print("3. apply brake but proceed in the same speed")
+ans = int( input("Ans:"))
+if ans == 2:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("--------------------------------------------------------------------------------------------------------------------------------") 
+print("E. Overspeeding is.....")
+print("1. not an offence and can be neglected")
+print("2. is an offence but no charges are pressed against you")
+print("3. an offsence that could lead to your driving licence being cancelled or suspended")
+ans = int( input("Ans:"))
+if ans == 3:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("-------------------------------------------------------------------------------------------------------------------------------") 
+print("F. In case you see a vehicle that has met with an accident with injured passengers inside, you should......")
+print("1. stop your vehicle and report the matter to the nearest police station")
+print("2. take the vehicle to the closest police station and report the accident")
+print("3. take measures to secure medical attention to those injured and report the accident to the closest police station within a period of 24 hours")
+ans = int( input("Ans:"))
+if ans == 3:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("---------------------------------------------------------------------------------------------------------------------------------") 
+print("G. The only vehical which is allowed to drive at a speed of 60km/hr is.....")
+print("1. motor car")
+print("2. heavy bus/trucks")
+print("3. all ot the above")
+ans = int( input("Ans:"))
+if ans == 1:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("-----------------------------------------------------------------------------------------------------------------------------------") 
+print("H. Suppose you are driving on a road with two lanes. The vehicle to the front of you is driving slowly and road ahead is clear and safe to overtake. What should you do?")
+print("1. overtake the vehicle from the left side of the vehicle ahead")
+print("2. overtake the vehicle from the right side of the vehicle ahead")
+print("3. overtake if the road is wide enough")
+ans = int( input("Ans:"))
+if ans == 2:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("------------------------------------------------------------------------------------------------------------------------") 
+print("I. If you see a yellow light at the traffic signal,you should.......")
+print("1. reduce your vehicle speed and proceed with caution")
+print("2. slow the vehicle")
+print("3. stop the vehicle")
+ans = int( input("Ans:"))
+if ans == 1:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("--------------------------------------------------------------------------------------------------------------------------") 
+print("J. Be careful while overtaking vehicles marked with 'L' because.........")
+print("1. you might crash into them")
+print("2. you might crash into people on the road")
+print("3. the learner driver might get nervous and make mistake")
+ans = int( input("Ans:"))
+if ans == 3:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("--------------------------------------------------------------------------------------------------------------------------")
+print("K. If a vehicle is parked on the side of a road at night.........")
+print("1. the vehicle should be locked")
+print("2. park light should remain on")
+print("3. all of the above")
+ans = int( input("Ans:"))
+if ans == 3:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("-------------------------------------------------------------------------------------------------------------------------")
+print("L. You should never try to overtake a cyclist when.........")
+print("1. driving on a narrow road and just before you are about to turn left")
+print("2. on a crowded street")
+print("3. all of the above")
+ans = int( input("Ans:"))
+if ans == 3:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("------------------------------------------------------------------------------------------------------------------------")
+
+print("M. Fog lamps should be used when.........")
+print("1. there is mist")
+print("2. at night")
+print("3. when the vehicle opposite is not using the dim light")
+ans = int( input("Ans:"))
+if ans == 1:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("-----------------------------------------------------------------------------------------------------------------------")
+
+print("N. If an ambulance is approaching.........")
+print("1. no preference should given")
+print("2. provide passage if there are no vehicles on the other side")
+print("3. allow free passage by moving to the side of the road")
+ans = int( input("Ans:"))
+if ans == 3:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("-------------------------------------------------------------------------------------------------------------------------")
+
+print("O. When you are moving off from behind a parked car, you should.........")
+print("1. give a signal, check your rear and side mirrors to back out carefully")
+print("2. move your vehicle as soon as possible")
+print("3. just give signals and proceed to move")
+ans = int( input("Ans:"))
+if ans == 1:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("------------------------------------------------------------------------------------------------------------------------")
+
+print("P. When should you stop your vehicle?")
+print("1. when approaching the red traffic light")
+print("2. when signaled by a police officer or involved in an accident")
+print("3. all of the above")
+ans = int( input("Ans:"))
+if ans == 3:
+    print("ans is right")
+    count +=1
+else:
+    print("ans is wrong")
+    count +=0
+print("-------------------------------------------------------------------------------------------------------------------------")
+print("___________________________________________________________________________________________________________________________")
+print("count:" , count)
+avg = count*100/16
+print("avg:" , avg)
+print("_____________________________________________________________________________________________________________________________")
+if avg >=75:
+    print("Congratulations!!!!! You are selected ....")
+else:
+    print("Sorry..... Better luck next time")
+print("______________________________________________________________________________________________________________________________")
